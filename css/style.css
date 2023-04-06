@@ -49,3 +49,122 @@
     width: 100%;
 }
 /* end header */
+.animation-div{
+    background-image: url(../photo/maxresdefault.jpg);
+    width: 100%;
+    height:100vh ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;   
+}
+.bambi{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(1330px,-290px);
+    animation: bambimove 2s infinite;  
+}
+@keyframes bambimove {
+    0%{bottom: 0%;
+        
+    }
+    100%{bottom: 2%;
+     }
+}
+.butterfly{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 70px;
+    left: 200px;
+    animation: butterflymove 40s infinite;
+}
+@keyframes butterflymove {
+    0%{left: 70px;}
+    30%{top:130px;}
+    40%{top:150px;}
+    50%{top:180px;}
+    100%{left: 1550px;}
+    
+}
+.clouds{
+   top: 30px;
+    left: 800px;
+    position: absolute;
+    animation:clouds 50s infinite ;
+}
+@keyframes clouds {
+    30%{top:130px;}
+    40%{top:150px;}   
+}
+
+.sunshine{
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(690px,50px);
+    animation-name: sunmove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sunmove { 
+    0% { left: 690px;
+        top: 30px;
+        transform: rotate(45deg);}
+    25% { left: 690px;
+        top: 30px;
+        transform: rotate(90deg);}
+    75% { left: 690px;
+        top: 30px;
+        transform: rotate(135deg);}
+    100% { left: 690px;
+        top: 30px;
+        transform: rotate(180deg);}
+    }
+
+
+
+/* end animation section */
+.section{
+    width: 915px;
+    height:517px;
+    background-color: brown;
+}
+.container{
+    height: 516.8505859375px;
+    width: 478px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: aqua;
+    justify-content:space-around;
+    margin-left: 30px;
+
+ transform: translate(1330px,300px);}
+.content{
+    height: 404.8505859375px;
+    width: 408px;
+   background-color: bisque;
+   margin-left: 35px;
+}
+.info{
+    height: 348.8505859375px;
+    width: 408px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+}
+.box-purple{
+    height: 52.8505859375px;
+    width: 408px;
+    background-color: #6B77E5;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 13px;
+    padding-left: 20px;
+    padding-right: 166px;
+
+}
