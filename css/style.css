@@ -311,11 +311,14 @@
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    width: 70px;
 }
 .callus2{
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    width: 148px;
+    height: 22px;
 }
 .line{
     height: 0px;
@@ -355,12 +358,16 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: 13px;
 }
+.serveces-nav{
+    margin-top: 4px;
+}
 .home{
     padding-top: 13px;
     color: #F4F4F4;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    width: 200px;
 }
 .green{
     color: #40DDB6;
@@ -458,5 +465,73 @@
     color:#37393F;
     font-family: 'Inter', sans-serif;
     padding: 22px 76px 21px 27px;
+
+}
+.line2{
+    margin-top: 50px;
+    height: 0px;
+    width: 1217px;
+    background-color: #6C6D72;
+    border: 1px solid #6C6D72;
+}
+.copyright{
+    height: 48px;
+    width: 1219.843505859375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+}
+.copy{
+    height: 26px;
+    width: 1219.843505859375px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text-copyright{
+    color: white;
+}
+.two{
+    color: greenyellow;
+}
+.littlediv{
+    width: 2px;
+    height: 0;
+    background-color: #474950;
+    border: #374c98 8px solid;
+}
+.three{
+    color: #6B77E5;
+}
+.follow{
+    height: 26px;
+    width: 194.84353637695312px;
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+
+}
+.socialmedia{
+    height: 17.359169006347656px;
+    width: 117.8435287475586px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: 9px;
+}
+.insta{
+    height: 16.455045700073242px;
+    width: 17.08793067932129px;
+    border-radius: 50%;
+    background-color: #7D7D7D;
+    margin-right: 15px;
+}
+.followdiv{
+    margin-left: 308px;
+    color: #FFFFFF;
+
 
 }
