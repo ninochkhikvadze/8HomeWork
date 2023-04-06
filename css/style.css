@@ -127,7 +127,7 @@
 /* end animation section */
 .section{
     width: 1384px;
-    height:285px;
+    height:185px;
     display: flex;
    align-items: center;
    margin-left:270px ;
@@ -196,7 +196,7 @@
 .container2{
     height: 530px;
     width: 692px;
-    margin-left: 20px;
+    margin-left:3px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
