@@ -130,7 +130,7 @@
     height:635px;
     display: flex;
    align-items: center;
-   margin-left:470px ;
+   margin-left:270px ;
    margin-top: 20px;
    background-color: #F4F4F4;
    
@@ -196,7 +196,7 @@
 .container2{
     height: 530px;
     width: 692px;
-    margin-left: 130px;
+    margin-left: 80px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
