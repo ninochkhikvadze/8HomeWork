@@ -126,12 +126,13 @@
 
 /* end animation section */
 .section{
-    width: 1384px;
-    height:185px;
+    height: 516.8505859375px;
+    width: 478px;
     display: flex;
    align-items: center;
    margin-left:270px ;
    margin-top: 20px;
+   margin-bottom: 60px;
    background-color: #F4F4F4;
    
 }
@@ -194,8 +195,8 @@
 }
 /* end1 */
 .container2{
-    height: 530px;
-    width: 692px;
+    height: 516.8505859375px;
+    width: 478px;
     margin-left:3px;
     display: flex;
     align-items: flex-start;
@@ -250,7 +251,7 @@
 }
 /* footer start */
 .footer{
-    margin-top: 151.5px;
+    margin-top: 20px;
     height: 703px;
     width: 1920vh;
     background-color:#37393F;
