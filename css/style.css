@@ -1,0 +1,51 @@
+.header{
+    position: fixed;
+    z-index: 50;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header-div{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    width: 1220px;
+    margin: 0 auto;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-right: 865px;
+    margin-left: 191px;
+}
+.home{display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.home1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 43px;
+}
+.nav-a{
+    position: relative;
+    font-size: 23px;
+    color: black;
+    font-family: 'Alkatra', cursive;
+}
+.nav-a::after{
+    content: "";
+    height: 6px;
+    width:0%;
+    background-color: rgb(250, 215, 215);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition:all 0.1s;
+}
+.nav-a:hover::after{
+    width: 100%;
+}
+/* end header */
